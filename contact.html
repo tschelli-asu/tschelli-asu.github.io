@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeless Views</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Timeless Views</h1>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </header>
+    <nav>
+        <b>
+            <a href="home.html">Home</a>&nbsp; &nbsp;
+            <a href="Gallery.html">Gallery</a>&nbsp; &nbsp;
+            <a href="PhotoShoot.html">Photo Sessions</a>&nbsp; &nbsp;
+            <a href="Contact.html">Contact</a>&nbsp; &nbsp;
+        </b>
+    </nav>
+    <main>
+        <h2>Contact Us</h2>
+        <p>
+            <span class="Studio">Timeless Views</span>, would love it if you would give us your feedback! Any specific photographs you are interested in?  Let us know! Thank you for visiting our site!
+        </p>
+        <form>
+            <label for="*First Name">* First Name:</label><br>
+            <input type="text" id="fname" name="first_name" required><br><br>
+
+            <label for="*Last Name">* Last Name:</label><br>
+            <input type="text" id="lname" name="last_name" required><br><br>
+
+            <label for="*Email">* Email:</label><br>
+            <input type="email" id="email" name="user_email" required><br><br>
+
+            <label for="Phone">Phone:</label><br>
+            <input type="tel" id="phone" name="user_phone"><br><br>
+
+            <label for="Product">Product or Serivce:</label><br>
+            <input type="text" id="product" name="user_product" list="product"><br><br>
+            <datalist id="product">
+                <option>Prints</option>
+                <option>Photo Sessions</option>
+                <option>Website</option>
+                <option>Other</option>
+            </datalist>
+            <label for="Rating">Rating:</label><br>
+            <input type="number" id="nights" name="user_nights" min="1" max="5" required><br><br>
+
+            <label for="*Comments">Comments/Suggestions:</label><br>
+            <textarea id="comments" name="user_comments" rows="2" cols="30"></textarea><br><br>
+
+            <input type="Submit" value="Submit">
+        </form><br>
+   
+            <div id="contact"> 
+                <span class="Studio">Timeless Views</span><br>
+                456 Memory Lane<br>
+                New Holstein, WI 53061<br>
+                Phone: 1-262-808-7523<br>
+                <a href="mailto:tschelli@asu.edu">tschelli@asu.edu</a>
+            </div>
+    </main>
+</body>
+</html>

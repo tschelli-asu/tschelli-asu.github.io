@@ -1,0 +1,73 @@
+body {
+    background-color: #fbfbfe;
+    background-image: linear-gradient(#229fd1, #fbfbfe);
+    color: #050503;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 80%;
+        min-width: 960px;
+        max-width: 2048px;
+        box-shadow: 3px 3px 3px #333333;
+        padding: 20px;
+}
+
+nav {
+    background-color: #229fd1;
+    color: #050503;
+}
+header {
+    background-color: #fbfbfe;
+    color: #050303;
+    text-align: center;
+}
+h1{
+    color: #09519d;
+    float: center;
+    font-size: 50px;
+}
+h2{
+    color: #09519d;
+}
+
+.Studio {
+    color: #0a9fe9;
+}
+
+#homehero{
+    background-image: url(AKmountain.jpg);
+    background-size: 30% 100%;
+    background-position: left;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+#senior{
+    background-image: url(senior.jpg);
+    background-size: 30% 100%;
+    height: 300px;
+    background-repeat: no-repeat;  
+}
+#beeonflower{
+    background-image: url(beeonflower.jpg);
+    background-size: 30% 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 20px;  
+}
+#sunrisewindcave{
+    background-image: url(sunrisewindcave.jpg);
+    background-size: 40% 100%;
+    height: 300px;
+    padding: 20px;
+    background-repeat: no-repeat;      
+}
+#rockislandWI{
+    background-image: url(rockislandWI.jpg);
+    background-size: 40% 100%;
+    height: 300px;
+    background-repeat: no-repeat;  
+    padding: 20px; 
+}

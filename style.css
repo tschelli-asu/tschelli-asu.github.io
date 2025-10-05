@@ -1,6 +1,6 @@
 body {
     background-color: #fbfbfe;
-    background-image: linear-gradient(#229fd1, #fbfbfe);
+    background-image: linear-gradient(to top, #ffffff, #04a4df);
     color: #050503;
     font-family: Arial, sans-serif;
 }
@@ -16,16 +16,17 @@ body {
 }
 
 nav {
-    background-color: #229fd1;
+    background-color: #9aa4ee;
     color: #050503;
 }
 header {
-    background-color: #fbfbfe;
-    color: #050303;
+    background-color: #00000b;
+    color: #b0c7f6;
     text-align: center;
+    font-family: 'Lucida Handwriting', cursive;
 }
 h1{
-    color: #09519d;
+    color: #0f39e1;
     float: center;
     font-size: 50px;
 }
@@ -39,16 +40,19 @@ h2{
 
 #homehero{
     background-image: url(AKmountain.jpg);
-    background-size: 30% 100%;
+    background-size: 10% 30%;
     background-position: left;
     height: 300px;
     background-repeat: no-repeat;
 }
-#senior{
+#photographer{
     background-image: url(senior.jpg);
+    float: left;
+    border:#333333 solid 1px;
     background-size: 30% 100%;
-    height: 300px;
+    height: 200px;
     background-repeat: no-repeat;  
+    margin-right: 20px;
 }
 #beeonflower{
     background-image: url(beeonflower.jpg);
@@ -70,4 +74,14 @@ h2{
     height: 300px;
     background-repeat: no-repeat;  
     padding: 20px; 
+}
+#photo{
+    text-align: center;
+}
+
+section {
+    margin: 30px;
+    border: 3px solid #333333;
+    padding: 30px;
+    background-color: #f0f0f5;
 }
